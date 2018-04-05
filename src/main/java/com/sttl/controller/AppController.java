@@ -18,6 +18,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.sttl.model.Employee;
 import com.sttl.service.EmployeeService;
 
+/*	This Controller for  request to the response events to the action  
+ * 
+ * 
+ */
+
 @Controller
 @RequestMapping("/")
 public class AppController {

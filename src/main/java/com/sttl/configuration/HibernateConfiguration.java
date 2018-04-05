@@ -63,6 +63,7 @@ public class HibernateConfiguration {
         return properties;        
     }
     
+    
 	@Bean
     @Autowired
     public HibernateTransactionManager transactionManager(SessionFactory s) {
